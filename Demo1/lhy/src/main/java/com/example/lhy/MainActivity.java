@@ -1,8 +1,9 @@
 package com.example.lhy;
 
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
+import android.view.View;
+import android.widget.RelativeLayout;
 
 import com.nostra13.universalimageloader.cache.disc.naming.Md5FileNameGenerator;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
@@ -14,7 +15,14 @@ import com.player.panoplayer.PanoPlayer;
 import com.player.panoplayer.PanoPlayerUrl;
 import com.player.renderer.PanoPlayerSurfaceView;
 
-public class MainActivity extends AppCompatActivity {
+import org.opencv.android.OpenCVLoader;
+
+public class MainActivity extends Activity {
+
+    static {
+        if (!OpenCVLoader.initDebug()) {
+        }
+    }
 
     PanoPlayerSurfaceView ppsview;
     private PanoPlayer mPlayer;
@@ -24,27 +32,37 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         defaultOptions();
 
+        ppsview = (PanoPlayerSurfaceView) findViewById(R.id.glview);
         mPlayer = new PanoPlayer(ppsview, this);
+        ppsview.setRenderer(mPlayer);
+        findViewById(R.id.videolay).setVisibility(View.GONE);
+
+        play();
+        fullScreenAndGyro();
+
+        findViewById(R.id.Gyro).setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                if (mPlayer != null) {
+                    mPlayer.setGyroEnable(true);
+                }
+            }
+        });
+
+
+    }
+
+    private void fullScreenAndGyro() {
+        RelativeLayout.LayoutParams lp = (RelativeLayout.LayoutParams) ppsview
+                .getLayoutParams();
+        lp.height = RelativeLayout.LayoutParams.MATCH_PARENT;
+        ppsview.setLayoutParams(lp);
+
+    }
+
+    private void play() {
         PanoPlayerUrl panoplayerurl = new PanoPlayerUrl();
-
-        //播放 方式一:  setXmlContent(String content);  content 必须是如下格式的XML 文本 才可以播放
-
-
-        //播放方式二:  setXmlUrl(String url); url 地址 必须返回的是 如上格式 的XML 文本才可以播放
-
-        //panoplayerurl.setXmlUrl("http://www.detu.com/live/xinlan/live-test.xml");
-
-        String PanoPlayer_Template = "<DetuVr> "
-                + "<settings init=\"pano1\" initmode=\"flat\" enablevr=\"false\"  title=\"\"/>"
-                + "<scenes>"
-                + "<scene name=\"pano1\"  title=\"\"    thumburl=\"\"   >"
-                + "<image type=\"video\" url=\"%s\" rx=\"0\" ry=\"0\" rz=\"0\"/>"
-                + "<view hlookat=\"0\" vlookat=\"0\" fov=\"100\" vrfov=\"95\" vrz=\"0.5\" righteye=\"0.1\" fovmax=\"130\" defovmax=\"95\" gyroEnable=\"false\"/>"
-                + "</scene>"
-                + "</scenes>"
-                + "</DetuVr>";
-        String xmlstring = String.format(PanoPlayer_Template, "http://hls5.l.cztv.com/channels/lantian/wchannel102/720p.m3u8");
-
         String myURL = "<DetuVr> \n" +
                 "\t<settings init=\"pano1\" initmode=\"default\" enablevr=\"false\" title=\"\" /> \n" +
                 "\t<scenes> \n" +
@@ -56,34 +74,26 @@ public class MainActivity extends AppCompatActivity {
                 "\t\t</scene> \n" +
                 "\t</scenes> \n" +
                 "</DetuVr>";
-
-        Log.i("520it", "myURL=" + myURL);
         panoplayerurl.setXmlContent(myURL);
-        mPlayer.setGyroEnable(true);
         mPlayer.Play(panoplayerurl);
-
+        mPlayer.setGyroEnable(true);
 
     }
 
     private void defaultOptions() {
         setContentView(R.layout.activity_main);
-        ppsview = (PanoPlayerSurfaceView) findViewById(R.id.glview);
-        PanoPlayer renderer = new PanoPlayer(ppsview, this);
-        renderer.setGyroEnable(true);
-        ppsview.setRenderer(renderer);
         DisplayImageOptions defaultOptions = new DisplayImageOptions.Builder()
-                .imageScaleType(ImageScaleType.NONE)
-                .cacheInMemory(true)
-                .cacheOnDisk(true)
-                .build();
-        ImageLoaderConfiguration config = new ImageLoaderConfiguration
-                .Builder(this)
-                .defaultDisplayImageOptions(defaultOptions)
+                .imageScaleType(ImageScaleType.NONE).cacheInMemory()
+                .cacheOnDisc().build();
+
+        ImageLoaderConfiguration config = new ImageLoaderConfiguration.Builder(
+                this).defaultDisplayImageOptions(defaultOptions)
                 .threadPriority(Thread.NORM_PRIORITY - 2)
                 .denyCacheImageMultipleSizesInMemory()
                 .discCacheFileNameGenerator(new Md5FileNameGenerator())
-                .tasksProcessingOrder(QueueProcessingType.FIFO)
-                .build();
+                // .writeDebugLogs()
+                .tasksProcessingOrder(QueueProcessingType.FIFO).build();
         ImageLoader.getInstance().init(config);
+
     }
 }
