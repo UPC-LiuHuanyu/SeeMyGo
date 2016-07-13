@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="lightcycle">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lhy/libs/lightcycle.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

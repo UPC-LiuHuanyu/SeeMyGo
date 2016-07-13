@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contentview1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <HorizontalScrollView
+        android:id="@+id/scrolldef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/bgl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textlable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/bgl"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="TextView"
+                android:textSize="12dp" />
+
+            <ImageView
+                android:id="@+id/bgr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/textlable" />
+
+            <ImageView
+                android:id="@+id/path"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textlable" />
+
+          <com.player.util.barview.RoundProgressBar
+              android:id="@+id/RprogressBar"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+  		  />
+    
+        </RelativeLayout>
+    </HorizontalScrollView>
+
+</RelativeLayout>

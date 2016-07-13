@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="panoplayer_android">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lhy/libs/panoplayer_android.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
