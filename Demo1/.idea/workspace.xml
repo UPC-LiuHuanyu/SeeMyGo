@@ -10,9 +10,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e06307b-9501-425d-aa95-89635c95418a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lhy/libs/fastjson-1.2.9.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lhy/libs/gson-2.2.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lhy/src/main/res/drawable/ic.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/bolts_tasks_1_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/butterknife_6_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/design_23_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/drawee_0_11_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/fastjson_1_2_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/fbcore_0_11_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/fresco_0_11_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/imagepipeline_0_11_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/imagepipeline_base_0_11_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/library_2_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/picasso_2_5_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/Protocol/IModelChangedListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/activity/MainActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/adapter/BannerAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/adapter/CommenAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/adapter/DetuBaseAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/application/MainApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/bean/BannerBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/bean/RItembean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/bean/RResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/cons/NetCons.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/fragment/RecommendFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/ui/EdgeCircleImageView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/util/ActivityUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/util/FixedViewUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/util/HttpUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/util/NetWorkUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/util/UIUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lhy/src/main/res/drawable/dots_container_bg.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lhy/src/main/res/layout/activity_vr_show.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lhy/src/main/res/layout/fragment_recommend.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lhy/src/main/res/layout/item_commen.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lhy/src/main/res/layout/item_comment.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/MainActivity.java" afterPath="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/activity/VRActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/MainActivity.java" afterPath="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lhy/build.gradle" afterPath="$PROJECT_DIR$/lhy/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lhy/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/lhy/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lhy/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/lhy/src/main/res/layout/activity_main.xml" />
     </list>
     <ignored path="Demo1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,40 +68,40 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="Demo1" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/demo/panoplayer/MainActivity.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CommenAdapter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/adapter/CommenAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="121" column="11" selection-start-line="112" selection-start-column="8" selection-end-line="121" selection-end-column="11" />
+            <state vertical-scroll-proportion="1.0028012">
+              <caret line="77" column="85" selection-start-line="77" selection-start-column="85" selection-end-line="77" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4116#4329#0" expanded="true" />
-                <element signature="e#4328#4329#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14527845">
-              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1388#1611#0" expanded="true" />
-                <element signature="e#1610#1611#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+        <option value="layoutResourceFile_vertical" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -702,6 +742,16 @@
                 <option name="name" value="prepareComAndroidSupportAppcompatV72340Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:design:23.4.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportDesign2340Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:recyclerview-v7:23.4.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportRecyclerviewV72340Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Prepare com.android.support:support-v4:23.4.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareComAndroidSupportSupportV42340Library" />
@@ -710,6 +760,31 @@
                 <option name="description" value="Prepare com.android.support:support-vector-drawable:23.4.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2340Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.fresco:drawee:0.11.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComFacebookFrescoDrawee0110Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.fresco:fbcore:0.11.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComFacebookFrescoFbcore0110Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.fresco:fresco:0.11.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComFacebookFrescoFresco0110Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.fresco:imagepipeline:0.11.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComFacebookFrescoImagepipeline0110Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.fresco:imagepipeline-base:0.11.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComFacebookFrescoImagepipelineBase0110Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1765,6 +1840,16 @@
                 <option name="name" value="prepareComAndroidSupportAppcompatV72340Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:design:23.4.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lhy" />
+                <option name="name" value="prepareComAndroidSupportDesign2340Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:recyclerview-v7:23.4.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lhy" />
+                <option name="name" value="prepareComAndroidSupportRecyclerviewV72340Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Prepare com.android.support:support-v4:23.4.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lhy" />
                 <option name="name" value="prepareComAndroidSupportSupportV42340Library" />
@@ -1773,6 +1858,31 @@
                 <option name="description" value="Prepare com.android.support:support-vector-drawable:23.4.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lhy" />
                 <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2340Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.fresco:drawee:0.11.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lhy" />
+                <option name="name" value="prepareComFacebookFrescoDrawee0110Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.fresco:fbcore:0.11.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lhy" />
+                <option name="name" value="prepareComFacebookFrescoFbcore0110Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.fresco:fresco:0.11.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lhy" />
+                <option name="name" value="prepareComFacebookFrescoFresco0110Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.fresco:imagepipeline:0.11.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lhy" />
+                <option name="name" value="prepareComFacebookFrescoImagepipeline0110Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.fresco:imagepipeline-base:0.11.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lhy" />
+                <option name="name" value="prepareComFacebookFrescoImagepipelineBase0110Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lhy" />
@@ -2529,7 +2639,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="7341718247000" />
+        <entry key="$PROJECT_DIR$" value="7342119187000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2812,10 +2922,23 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar" />
                             <option value="$PROJECT_DIR$/../../sdk/extras/android/m2repository/com/android/support/appcompat-v7/23.4.0/appcompat-v7-23.4.0.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/6.1.0/63735f48b82bcd24cdd33821342428252eb1ca5a/butterknife-6.1.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/fresco/0.11.0/86df1ab4b0074e1aeceb419593d2ea6d97cdc3b4/fresco-0.11.0.aar" />
+                            <option value="$PROJECT_DIR$/../../sdk/extras/android/m2repository/com/android/support/design/23.4.0/design-23.4.0.aar" />
                             <option value="$PROJECT_DIR$/../../sdk/extras/android/m2repository/com/android/support/animated-vector-drawable/23.4.0/animated-vector-drawable-23.4.0.aar" />
                             <option value="$PROJECT_DIR$/../../sdk/extras/android/m2repository/com/android/support/support-v4/23.4.0/support-v4-23.4.0.aar" />
                             <option value="$PROJECT_DIR$/../../sdk/extras/android/m2repository/com/android/support/support-vector-drawable/23.4.0/support-vector-drawable-23.4.0.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/drawee/0.11.0/7c8a4d211b2334b6d52b9de614b52423b16f7704/drawee-0.11.0.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/fbcore/0.11.0/e732e63ea19b19d053eebfe46870157ee79ad034/fbcore-0.11.0.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/imagepipeline/0.11.0/d57b234db14899af8c36876d7937d63fddca5b12/imagepipeline-0.11.0.aar" />
+                            <option value="$PROJECT_DIR$/../../sdk/extras/android/m2repository/com/android/support/recyclerview-v7/23.4.0/recyclerview-v7-23.4.0.aar" />
                             <option value="$PROJECT_DIR$/../../sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/imagepipeline-base/0.11.0/f450cd58350ef5d6734f9772bc780b67cc538c5/imagepipeline-base-0.11.0.aar" />
+                            <option value="$MODULE_DIR$/libs/fastjson-1.2.9.jar" />
+                            <option value="$MODULE_DIR$/libs/gson-2.2.2.jar" />
                             <option value="$MODULE_DIR$/libs/lightcycle.jar" />
                             <option value="$MODULE_DIR$/libs/panocamera.jar" />
                             <option value="$MODULE_DIR$/libs/panoplayer_android.jar" />
@@ -2823,6 +2946,104 @@
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$/lhy" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/myapplication">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.0.0/gradle-2.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.0.0/gradle-core-2.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/2.0.0/compilerCommon-2.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-api/2.0.0/gradle-api-2.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.2.1/proguard-gradle-5.2.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.2.1/proguard-gradle-5.2.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.0.0/builder-2.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.0.0/lint-25.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/2.0.0/baseLibrary-2.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4/4.5/antlr4-4.5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/25.0.0/annotations-25.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.2.1/proguard-base-5.2.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.2.1/proguard-base-5.2.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.0.0/builder-test-api-2.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.9.0/jill-api-0.9.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.9.0/jill-api-0.9.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.9.0/jack-api-0.9.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.9.0/jack-api-0.9.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.0.0/sdklib-25.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/25.0.0/common-25.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/25.0.0/sdk-common-25.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/25.0.0/ddmlib-25.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/25.0.0/manifest-merger-25.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.0.0/builder-model-2.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/25.0.0/lint-checks-25.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4-runtime/4.5/antlr4-runtime-4.5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4-annotations/4.5/antlr4-annotations-4.5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/ST4/4.0.8/ST4-4.0.8.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/25.0.0/layoutlib-api-25.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/25.0.0/dvlib-25.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/repository/25.0.0/repository-25.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/25.0.0/lint-api-25.0.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar" />
+                            <option value="$PROJECT_DIR$/../../sdk/extras/android/m2repository/com/android/support/appcompat-v7/23.4.0/appcompat-v7-23.4.0.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar" />
+                            <option value="$PROJECT_DIR$/../../sdk/extras/android/m2repository/com/android/support/animated-vector-drawable/23.4.0/animated-vector-drawable-23.4.0.aar" />
+                            <option value="$PROJECT_DIR$/../../sdk/extras/android/m2repository/com/android/support/support-v4/23.4.0/support-v4-23.4.0.aar" />
+                            <option value="$PROJECT_DIR$/../../sdk/extras/android/m2repository/com/android/support/support-vector-drawable/23.4.0/support-vector-drawable-23.4.0.aar" />
+                            <option value="$PROJECT_DIR$/../../sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar" />
+                            <option value="$MODULE_DIR$/libs/fastjson-1.2.9.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$/myapplication" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -3002,16 +3223,54 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/demo/src/main/java/com/demo/panoplayer/MainActivity.java" />
-        <option value="$PROJECT_DIR$/lhy/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/MainActivity2.java" />
+        <option value="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/VRActivity.java" />
         <option value="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/MainActivity.java" />
+        <option value="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/util/ActivityUtil.java" />
+        <option value="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/application/MainApplication.java" />
+        <option value="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/util/UIUtil.java" />
+        <option value="$PROJECT_DIR$/lhy/src/main/res/drawable/dots_container_bg.xml" />
+        <option value="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/Protocol/IModelChangedListener.java" />
+        <option value="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/bean/BannerBean.java" />
+        <option value="$PROJECT_DIR$/lhy/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/fragment/RecommandFragment.java" />
+        <option value="$PROJECT_DIR$/myapplication/build.gradle" />
+        <option value="$PROJECT_DIR$/myapplication/src/main/java/lhy/activity/VRActivity.java" />
+        <option value="$PROJECT_DIR$/myapplication/src/main/java/lhy/adapter/BannerAdapter.java" />
+        <option value="$PROJECT_DIR$/myapplication/src/main/java/lhy/util/NetWorkUtil.java" />
+        <option value="$PROJECT_DIR$/myapplication/src/main/java/lhy/Protocol/IModelChangedListener.java" />
+        <option value="$PROJECT_DIR$/myapplication/src/main/java/lhy/util/UIUtil.java" />
+        <option value="$PROJECT_DIR$/myapplication/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/myapplication/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/myapplication/src/main/java/lhy/activity/MainActivity.java" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/adapter/BannerAdapter.java" />
+        <option value="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/bean/RItembean.java" />
+        <option value="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/bean/RResponse.java" />
+        <option value="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/cons/NetCons.java" />
+        <option value="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/util/NetWorkUtil.java" />
+        <option value="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/adapter/BaseAdapter.java" />
+        <option value="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/adapter/DetuBaseAdapter.java" />
+        <option value="$PROJECT_DIR$/lhy/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/activity/MainActivity.java" />
+        <option value="$PROJECT_DIR$/lhy/src/main/res/layout/item_comment.xml" />
+        <option value="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/ui/EdgeSimpleDraweeView.java" />
+        <option value="$PROJECT_DIR$/lhy/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/res/values/values.xml" />
+        <option value="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/ui/EdgeCircleImageView.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/lhy/src/main/res/layout/fragment_recommend.xml" />
+        <option value="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/fragment/RecommendFragment.java" />
+        <option value="$PROJECT_DIR$/lhy/build.gradle" />
+        <option value="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/adapter/CommentAdapter.java" />
+        <option value="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/util/FixedViewUtil.java" />
+        <option value="$PROJECT_DIR$/lhy/src/main/res/layout/item_commen.xml" />
+        <option value="$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/adapter/CommenAdapter.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="773" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -3024,7 +3283,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="AndroidView" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -3038,9 +3297,213 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fragment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adapter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -3057,6 +3520,28 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="lhy" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo1" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhy" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -3090,20 +3575,168 @@
               <option name="myItemId" value="lhy" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo1" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhy" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhy" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Protocol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo1" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhy" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhy" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fragment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo1" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhy" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhy" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo1" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhy" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhy" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adapter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo1" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhy" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhy" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo1" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lhy" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../sdk" />
     <property name="device.picker.selection" value="G2W0215805008173" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="android.project.structure.last.selected" value="lhy" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="FullScreen" value="true" />
+    <property name="DEBUGGABLE_DEVICE" value="huawei-huawei_mt7_cl00-G2W0215805008173" />
+    <property name="DEBUGGABLE_PROCESS" value="com.example.lhy" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.lhy.fragment" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.lhy.util" />
       <recent name="com.example.lhy" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lhy/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/lhy/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/myapplication/libs" />
+      <recent name="$PROJECT_DIR$/myapplication/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/myapplication/src/main/java" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.lhy">
@@ -3387,9 +4020,44 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method />
     </configuration>
-    <list size="2">
+    <configuration default="false" name="myapplication" type="AndroidRunConfigurationType" factoryName="Android Application" activateToolWindowBeforeRun="false">
+      <module name="myapplication" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <Hybrid>
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+      </Hybrid>
+      <Native>
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+      </Native>
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Android Application.lhy" />
       <item index="1" class="java.lang.String" itemvalue="Android Application.demo" />
+      <item index="2" class="java.lang.String" itemvalue="Android Application.myapplication" />
     </list>
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
@@ -3405,6 +4073,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1e06307b-9501-425d-aa95-89635c95418a" name="Default" comment="" />
@@ -3415,38 +4086,47 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4546742" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39878234" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42776203" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3711048" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26655897" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="100" width="1080" height="600" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -3460,83 +4140,101 @@
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/myapplication/src/main/java/lhy/activity/MainActivity.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/myapplication/src/main/java/lhy/activity/MainActivity.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/myapplication/src/main/java/lhy/activity/MainActivity.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/myapplication/src/main/java/lhy/util/NetWorkUtil.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/myapplication/src/main/java/lhy/util/NetWorkUtil.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/myapplication/src/main/java/lhy/util/NetWorkUtil.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/ui/EdgeCircleImageView.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/ui/EdgeCircleImageView.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/ui/EdgeCircleImageView.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/ui/EdgeCircleImageView.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/util/FixedViewUtil.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/util/FixedViewUtil.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/util/FixedViewUtil.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="15" />
+      <option name="time" value="76" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lhy/libs/panoplayer_android.jar!/com/player/panoplayer/IPanoPlayerListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14950167">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2641509">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-23/android/os/Handler.java">
+    <entry file="file://$PROJECT_DIR$/lhy/src/main/res/drawable/dots_container_bg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="111" column="7" selection-start-line="111" selection-start-column="7" selection-end-line="111" selection-end-column="7" />
-          <folding />
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lhy/libs/panoplayer_android.jar!/com/player/panoplayer/PanoPlayer.class">
+    <entry file="file://$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/adapter/BannerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.6296296">
-          <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-          <folding>
-            <element signature="e#3703#4056#0" expanded="true" />
-            <element signature="e#3854#4022#0" expanded="true" />
-            <element signature="e#4021#4022#0" expanded="true" />
-            <element signature="e#4055#4056#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lhy/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.125">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-19/android/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33231708">
-          <caret line="18480" column="0" selection-start-line="18480" selection-start-column="0" selection-end-line="18480" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-19/android/os/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33231708">
-          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding>
-            <element signature="e#29237#29238#0" expanded="false" />
-            <element signature="e#29275#29276#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-19/android/os/Looper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60670733">
-          <caret line="141" column="11" selection-start-line="141" selection-start-column="11" selection-end-line="141" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -3546,21 +4244,615 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="121" column="11" selection-start-line="112" selection-start-column="8" selection-end-line="121" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4116#4329#0" expanded="true" />
-            <element signature="e#4328#4329#0" expanded="true" />
+            <element signature="e#4116#4329#0" expanded="false" />
+            <element signature="e#4328#4329#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/activity/VRActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14527845">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lhy/libs/panoplayer_android.jar!/com/player/panoplayer/IPanoPlayerListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14950167">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-23/android/os/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="111" column="7" selection-start-line="111" selection-start-column="7" selection-end-line="111" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lhy/libs/panoplayer_android.jar!/com/player/panoplayer/PanoPlayer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.6296296">
+          <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-19/android/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33231708">
+          <caret line="18480" column="0" selection-start-line="18480" selection-start-column="0" selection-end-line="18480" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-19/android/os/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33231708">
+          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-19/android/os/Looper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60670733">
+          <caret line="141" column="11" selection-start-line="141" selection-start-column="11" selection-end-line="141" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lhy/src/main/res/layout/activity_vr_show.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/util/ActivityUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lhy/src/main/res/drawable/dots_container_bg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/util/HttpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/Protocol/IModelChangedListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/bean/BannerBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/util/UIUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/application/MainApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lhy/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lhy/src/main/res/drawable/ic.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/bean/RResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/cons/NetCons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/util/NetWorkUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/bean/RItembean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="112" column="36" selection-start-line="112" selection-start-column="24" selection-end-line="112" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-23/android/widget/Adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lhy/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lhy/build/generated/source/r/debug/com/example/lhy/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1915" column="32" selection-start-line="1915" selection-start-column="32" selection-end-line="1915" selection-end-column="32" />
+          <folding>
+            <marker date="1468590129000" expanded="true" signature="4801:5028" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="5099:5326" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="5399:5626" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="5692:5919" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="7372:7599" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="7675:7902" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="7977:8204" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="8280:8507" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="8584:8811" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="8891:9118" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="9199:9426" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="9503:9730" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="9809:10036" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="10105:10332" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="10413:10640" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="10719:10946" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="11023:11392" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="11465:11834" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="11903:12130" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="12208:12961" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="13035:13404" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="13472:13699" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="13780:14117" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="14195:14422" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="14492:14719" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="14789:15126" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="15193:15712" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="15781:16300" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="16370:16597" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="16676:16903" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="16967:17194" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="17263:17653" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="17722:18112" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="18183:18605" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="18673:19190" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="19262:19781" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="19844:20071" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="20146:20373" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="20447:20674" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="20756:20983" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="21064:21291" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="21373:21600" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="21668:21895" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="21970:22197" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="22262:22489" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="22559:22981" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="23045:23562" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="23630:23857" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="23924:24151" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="24225:24452" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="24515:24742" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="24811:25180" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="25260:25487" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="25553:25975" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="26034:26456" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="26521:26943" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="27014:27436" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="27511:27933" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="28008:28430" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="28502:28924" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="28990:29412" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="29482:29904" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="29980:30207" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="30271:30790" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="30859:31378" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="31448:31967" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="32038:32557" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="32628:32855" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="32926:33153" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="33229:33598" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="33668:34187" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="34263:34490" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="34555:35234" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="35302:35529" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="35590:35817" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="35888:36407" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="36475:36702" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="36771:37290" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="37356:37583" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="37653:37880" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="37955:38474" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="38559:38786" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="38858:39248" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="39315:39542" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="39609:40128" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="40191:40418" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="40508:40822" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="40888:41115" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="41181:41934" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="42009:42528" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="42596:42823" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="42883:43402" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="43462:43799" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="43872:44099" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="44170:44397" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="44461:44688" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="44746:45083" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="45155:45382" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="45452:45679" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="45759:46128" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="46202:46539" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="46605:47124" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="47189:47416" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="47476:47703" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="47786:48013" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="48089:48316" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="48384:48611" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="48675:48902" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="48976:49495" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="49572:50091" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="50173:50692" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="50774:51293" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="51375:51894" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="51977:52204" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="52262:52631" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="52700:53219" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="53288:53625" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="53702:53929" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="54004:54373" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="54455:54682" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="54750:55148" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="55216:55553" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="55620:55847" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="55913:56432" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="56496:57015" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="57081:57308" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="57377:57604" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="57676:58195" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="58267:58494" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="58564:59317" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="59396:59623" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="59691:59918" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="59982:60209" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="60279:60616" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="60689:60916" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="60994:61308" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="61391:61618" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="61688:62441" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="62520:63039" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="63111:63338" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="63408:63635" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="63704:64073" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="64136:64363" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="64433:64660" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="64728:64955" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="65032:65259" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="65332:65559" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="65623:66376" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="66449:66786" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="66853:67190" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="67259:67596" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="67666:68003" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="68069:68406" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="68473:68895" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="68970:69489" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="69562:69984" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="70057:70576" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="70651:71170" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="71243:71470" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="71538:71765" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="71829:72056" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="72125:72352" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="72418:72645" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="72723:72950" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="73038:73587" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="73653:74130" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="74196:74533" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="74595:74822" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="74898:75235" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="75297:75524" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="75602:75829" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="75895:76232" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="76296:76523" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="76586:76923" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="76995:77222" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="77292:77661" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="77723:77950" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="78026:78448" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="78519:78746" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="78817:79044" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="79117:79636" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="79704:80223" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="80290:80517" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="80582:80809" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="80883:81188" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="81253:81480" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="81562:81789" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="81865:82092" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="82173:82400" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="82488:82715" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="82800:83027" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="83109:83499" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="83581:83971" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="84043:84270" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="84329:84848" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="84911:85430" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="85500:85869" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="85928:86447" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="86518:87037" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="87105:87624" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="87694:88213" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="88281:88800" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="88866:89093" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="89166:89588" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="89656:89883" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="89951:90178" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="90260:90487" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="90553:90780" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="90839:91159" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="91228:91455" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="91518:91855" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="91924:92261" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="92337:92674" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="92751:93523" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="93599:94371" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="94447:95219" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="95294:96066" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="96141:96913" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="96986:97758" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="97831:98168" placeholder="/**...*/" />
+            <marker date="1468590129000" expanded="true" signature="98268:98925" placeholder="{...}" />
+            <marker date="1468590129000" expanded="true" signature="98962:104330" placeholder="{...}" />
+            <marker date="1468590129000" expanded="true" signature="104367:110357" placeholder="{...}" />
+            <marker date="1468590129000" expanded="true" signature="110397:116227" placeholder="{...}" />
+            <marker date="1468590129000" expanded="true" signature="116261:123310" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-23/android/widget/ImageView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1213" column="19" selection-start-line="1213" selection-start-column="19" selection-end-line="1213" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/drawee/0.11.0/a8ef100a4e4473c6758417c82f1d4e10598d7504/drawee-0.11.0-sources.jar!/com/facebook/drawee/view/GenericDraweeView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/drawee/0.11.0/a8ef100a4e4473c6758417c82f1d4e10598d7504/drawee-0.11.0-sources.jar!/com/facebook/drawee/view/DraweeView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/activity/VRActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/drawee/0.11.0/a8ef100a4e4473c6758417c82f1d4e10598d7504/drawee-0.11.0-sources.jar!/com/facebook/drawee/view/SimpleDraweeView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-23/android/view/LayoutInflater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.25641">
+          <caret line="638" column="0" selection-start-line="638" selection-start-column="0" selection-end-line="638" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lhy/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/res/values/values.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5882353">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/demo/panoplayer/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+          <folding>
+            <element signature="e#4116#4329#0" expanded="false" />
+            <element signature="e#4328#4329#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lhy/src/main/res/layout/fragment_recommend.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6792452">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/adapter/DetuBaseAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="5" selection-start-line="12" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/fragment/RecommendFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lhy/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/adapter/BannerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="50" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/util/FixedViewUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lhy/src/main/res/layout/item_commen.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="e#333#2336#0" expanded="false" />
+            <element signature="e#482#1073#0" expanded="false" />
+            <element signature="e#1083#1497#0" expanded="false" />
+            <element signature="e#1507#1868#0" expanded="false" />
+            <element signature="e#1878#2313#0" expanded="false" />
+            <element signature="e#2342#2879#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/ui/EdgeCircleImageView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1388#1611#0" expanded="true" />
-            <element signature="e#1610#1611#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lhy/src/main/res/layout/item_comment.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-23/android/view/ViewGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6792" column="32" selection-start-line="6792" selection-start-column="32" selection-end-line="6792" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lhy/src/main/java/com/example/lhy/adapter/CommenAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0028012">
+          <caret line="77" column="85" selection-start-line="77" selection-start-column="85" selection-end-line="77" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

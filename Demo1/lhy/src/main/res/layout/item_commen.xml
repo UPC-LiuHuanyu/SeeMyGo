@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:fresco="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp">
+
+
+        <com.example.lhy.ui.EdgeCircleImageView
+            android:id="@+id/my_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            fresco:placeholderImage="@drawable/ic"
+            fresco:roundBottomLeft="true"
+            fresco:roundBottomRight="true"
+            fresco:roundTopLeft="true"
+            fresco:roundTopRight="true"
+            fresco:roundedCornerRadius="20dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_image_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="50dp"
+            android:paddingBottom="15dp"
+            android:text="玩的就是心跳"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"/>
+
+        <com.example.lhy.ui.EdgeCircleImageView
+            android:id="@+id/sdv_author_head"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            fresco:placeholderImage="@drawable/ic"
+            fresco:roundAsCircle="true"
+            />
+
+        <TextView
+            android:id="@+id/tv_author_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/sdv_author_head"
+            android:text="qq1596413121"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="14sp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="6dp"
+        android:lines="2"
+        android:text="\u3000\u3000到不了沙漠就来这里体验沙漠越野吧。玩的就是心跳，玩的就是刺激，硬汉之间的游戏，油门之间的较量科技部的手机卡不是的保护健康萨克比较大时看不见"
+        android:textSize="16sp"/>
+
+    <LinearLayout
+        android:id="@+id/ll_comment_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+
+</LinearLayout>

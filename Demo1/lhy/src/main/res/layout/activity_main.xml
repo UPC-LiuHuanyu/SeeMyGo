@@ -1,90 +1,17 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity" >
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
 
-    <com.player.renderer.PanoPlayerSurfaceView
-        android:id="@+id/glview"
-        android:layout_width="fill_parent"
-        android:layout_height="200dp"
-        android:background="#00000000" />
-
-    <LinearLayout
-        android:id="@+id/videolay"
+    <FrameLayout
+        android:id="@+id/fl_work_list_container"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:gravity="center"
-        android:orientation="horizontal" >
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_red_dark"
+        android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/btn_play"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:minHeight="40dp"
-            android:text="播放" />
-
-        <TextView
-            android:id="@+id/lable1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="5dp"
-            android:text="00:00:00" />
-
-        <SeekBar
-            android:id="@+id/sb_progress"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.8" />
-
-        <TextView
-            android:id="@+id/lable2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="5dp"
-            android:text="00:00:00" />
-    </LinearLayout>
-
-    <!-- 菜单项锚点View,勿删 -->
-
-    <TextView
-        android:id="@+id/tv_panel_anchor"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_alignParentBottom="true" />
-
-    <Button
-        android:id="@+id/dre_video"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:text="视频" />
-
-    <Button
-        android:id="@+id/dre_live"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/dre_video"
-        android:text="直播" />
-
-    <Button
-        android:id="@+id/btn_full"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/dre_live"
-        android:text="全屏" />
-
-    <Button
-        android:id="@+id/Gyro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:text="Gyro" />
+    </FrameLayout>
 
 
-</RelativeLayout>
+</LinearLayout>

@@ -1,10 +1,11 @@
-package com.example.lhy;
+package com.example.lhy.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.RelativeLayout;
 
+import com.example.lhy.R;
 import com.nostra13.universalimageloader.cache.disc.naming.Md5FileNameGenerator;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
@@ -17,7 +18,7 @@ import com.player.renderer.PanoPlayerSurfaceView;
 
 import org.opencv.android.OpenCVLoader;
 
-public class MainActivity extends Activity {
+public class VRActivity extends Activity {
 
     static {
         if (!OpenCVLoader.initDebug()) {
@@ -81,7 +82,7 @@ public class MainActivity extends Activity {
     }
 
     private void defaultOptions() {
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_vr_show);
         DisplayImageOptions defaultOptions = new DisplayImageOptions.Builder()
                 .imageScaleType(ImageScaleType.NONE).cacheInMemory()
                 .cacheOnDisc().build();
