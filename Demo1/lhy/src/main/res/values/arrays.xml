@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="indicator_titles">
+        <item>精品推荐</item>
+        <item>观光旅游</item>
+        <item>空中全景</item>
+        <item>设计空间</item>
+        <item>全景高校</item>
+        <item>舞台世界</item>
+        <item>得图自制</item>
+        <item>运动快乐</item>
+        <item>时空转移</item>
+        <item>Sphere 800</item>
+    </string-array>
+
+    <string-array name="colorPrimaryDark">
+        <item>#303F9F</item>
+        <item>#c2185b</item>
+        <item>#f57c00</item>
+        <item>#689f38</item>
+        <item>#7b1fa2</item>
+        <item>#5d4037</item>
+        <item>#455a64</item>
+        <item>#00796b</item>
+        <item>#e64a19</item>
+        <item>#303f9f</item>
+    </string-array>
+
+    <string-array name="colorPrimary">
+        <item>#3F51B5</item>
+        <item>#d81b60</item>
+        <item>#ff9800</item>
+        <item>#8bc34a</item>
+        <item>#9c27b0</item>
+        <item>#795548</item>
+        <item>#607d8b</item>
+        <item>#009688</item>
+        <item>#ff5722</item>
+        <item>#3f51b5</item>
+    </string-array>
+</resources>
