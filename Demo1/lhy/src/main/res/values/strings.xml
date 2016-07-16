@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">lhy</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="credit_not_online">积分系统即将上线  尽请期待！</string>
+    <string name="message">消息</string>
+    <string name="follow">关注</string>
+    <string name="like">喜欢 &amp; 收藏</string>
+    <string name="my_work">我的作品</string>
+    <string name="offline_work">离线缓存</string>
+    <string name="setting">设置</string>
 </resources>
