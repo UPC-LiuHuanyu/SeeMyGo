@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               xmlns:fresco="http://schemas.android.com/apk/res-auto"
               android:layout_width="match_parent"
-              android:layout_height="match_parent"
+              android:layout_height="wrap_content"
               android:orientation="vertical">
 
     <RelativeLayout
@@ -63,14 +63,15 @@
     <TextView
         android:id="@+id/tv_desc"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="20dp"
+        android:ellipsize="end"
         android:gravity="center_vertical"
         android:lineSpacingExtra="6dp"
-        android:lines="2"
+        android:maxLines="2"
         android:text="\u3000\u3000到不了沙漠就来这里体验沙漠越野吧。玩的就是心跳，玩的就是刺激，硬汉之间的游戏，油门之间的较量科技部的手机卡不是的保护健康萨克比较大时看不见"
         android:textSize="16sp"/>
 

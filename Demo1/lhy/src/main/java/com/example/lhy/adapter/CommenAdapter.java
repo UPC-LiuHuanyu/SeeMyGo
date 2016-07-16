@@ -64,6 +64,7 @@ public class CommenAdapter extends RecyclerView.Adapter<CommenAdapter.MyViewHold
 
         List<RItembean.CommentsBean> comments = itembean.comments;
 
+        holder.mLlCommentContainer.removeAllViews();
         for (int i = 0; i < 3 && i < comments.size(); i++) {
             View inflate = View.inflate(context, R.layout.item_comment, null);
             SimpleDraweeView mSvHead = (SimpleDraweeView) inflate.findViewById(R.id.iv_head);
