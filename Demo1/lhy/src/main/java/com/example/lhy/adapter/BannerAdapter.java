@@ -7,7 +7,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import com.example.lhy.R;
 import com.example.lhy.bean.BannerBean;
 import com.squareup.picasso.Picasso;
 
@@ -36,7 +35,6 @@ public class BannerAdapter extends PagerAdapter {
             ImageView iv = new ImageView(c);
             iv.setLayoutParams(new ViewGroup.LayoutParams(ViewPager.LayoutParams.MATCH_PARENT, ViewPager.LayoutParams.MATCH_PARENT));
             Picasso.with(c).load(data.getImg()).into(iv);
-//            iv.setImageResource(R.drawable.ic);
             images.add(iv);
         }
 
@@ -44,7 +42,7 @@ public class BannerAdapter extends PagerAdapter {
 
     @Override
     public int getCount() {
-        return mDatas == null ? 0 : mDatas.size();
+        return mDatas == null ? 0 : Integer.MAX_VALUE;
     }
 
     @Override
@@ -54,13 +52,13 @@ public class BannerAdapter extends PagerAdapter {
 
     @Override
     public Object instantiateItem(ViewGroup container, int position) {
-        ImageView child = images.get(position);
+        ImageView child = images.get(position % mDatas.size());
         container.addView(child);
-        return images.get(position);
+        return child;
     }
 
     @Override
     public void destroyItem(ViewGroup container, int position, Object object) {
-        container.removeView(images.get(position));
+        container.removeView(images.get(position % mDatas.size()));
     }
 }

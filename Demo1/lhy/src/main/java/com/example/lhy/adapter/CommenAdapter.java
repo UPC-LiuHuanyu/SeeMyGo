@@ -26,6 +26,8 @@ public class CommenAdapter extends RecyclerView.Adapter<CommenAdapter.MyViewHold
     List<RItembean> mDatas;
     private Context context;
 
+
+
     public CommenAdapter(Context context) {
         this.context = context;
     }
@@ -36,9 +38,8 @@ public class CommenAdapter extends RecyclerView.Adapter<CommenAdapter.MyViewHold
 
     @Override
     public CommenAdapter.MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        MyViewHolder holder = new MyViewHolder(LayoutInflater.from(
-                context).inflate(R.layout.item_commen, parent,
-                false));
+        View inflate = LayoutInflater.from(context).inflate(R.layout.item_commen, parent, false);
+        MyViewHolder holder = new MyViewHolder(inflate);
         return holder;
     }
 

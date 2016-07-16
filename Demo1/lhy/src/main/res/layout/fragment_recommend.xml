@@ -17,12 +17,14 @@
             android:layout_height="150dp"/>
 
         <LinearLayout
-            android:layout_width="80dp"
-            android:layout_height="10dp"
+            android:id="@+id/ll_dots_container"
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="20dp"
             android:background="@drawable/dots_container_bg"
+            android:gravity="center"
             android:orientation="horizontal"/>
 
     </RelativeLayout>
