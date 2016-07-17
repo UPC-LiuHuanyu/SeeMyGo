@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
         mTabContainer = (LinearLayout) findViewById(R.id.tab_container_ll);
         initViewPager();
-
     }
 
     private void initViewPager() {

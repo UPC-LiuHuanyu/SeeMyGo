@@ -24,6 +24,11 @@ public class NetCons {
      */
     public static final String SPECIFIC_CHANNEL_URL = " http://www.test.detu.com/api/mobile2/get_collection_by_channel";
 
-    public static final String SPECIFIC_CHANNEL_PARAMS = "?channelid=19&pageindex=1&pagesize=20&order=recommend";
+    //public static final String SPECIFIC_CHANNEL_PARAMS = "?channelid=19&pageindex=1&pagesize=20&order=recommend";
+    public static final String SPECIFIC_CHANNEL_PARAMS = "?channelid=%d&pageindex=%d&pagesize=%d&order=%s";
+
+    public static String getUrl(int channelid, int pageindex, int pagesize, String order) {
+        return String.format(SPECIFIC_CHANNEL_URL + SPECIFIC_CHANNEL_PARAMS, channelid, pageindex, pagesize, order);
+    }
 
 }

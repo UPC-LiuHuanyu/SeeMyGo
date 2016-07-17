@@ -16,6 +16,7 @@ import com.example.lhy.bean.RItembean;
 import com.example.lhy.holder.MyViewHolder;
 import com.facebook.drawee.view.SimpleDraweeView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -28,14 +29,29 @@ public class CommenAdapter extends RecyclerView.Adapter<MyViewHolder> {
     List<RItembean> mDatas;
     IRecycleViewClickListener listener;
     private Context context;
+    private View mHeaderView;
+    private View mFooterView;
+    public static final int ITEM_TYPE_HEADER = 0;
+    public static final int ITEM_TYPE_CONTENT = 1;
+    public static final int ITEM_TYPE_FOOTER = 2;
+    private int mHeaderCount = 0;
 
 
     public CommenAdapter(Context context) {
         this.context = context;
+        mDatas = new ArrayList<>();
     }
 
     public void setDatas(List<RItembean> datas) {
-        mDatas = datas;
+        mDatas.addAll(datas);
+        notifyDataSetChanged();
+        mFooterView.setVisibility(View.VISIBLE);
+    }
+
+    public void addHeaderView(View headerView) {
+        mHeaderView = headerView;
+        mHeaderCount++;
+        notifyDataSetChanged();
     }
 
     public void setItemOnClickListener(IRecycleViewClickListener listener) {
@@ -43,16 +59,49 @@ public class CommenAdapter extends RecyclerView.Adapter<MyViewHolder> {
     }
 
     @Override
+<<<<<<< HEAD
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View inflate = LayoutInflater.from(context).inflate(R.layout.item_commen, parent, false);
         MyViewHolder holder = new MyViewHolder(inflate);
         holder.setListener(listener);
         return holder;
+=======
+    public int getItemViewType(int position) {
+        if (mHeaderView != null && position == 0) {
+            return ITEM_TYPE_HEADER;
+        } else if (position < getItemCount() - 1) {
+            return ITEM_TYPE_CONTENT;
+        } else {
+            return ITEM_TYPE_FOOTER;
+        }
+    }
+
+    @Override
+    public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        if (mHeaderView != null && viewType == ITEM_TYPE_HEADER) {
+            return new MyViewHolder(mHeaderView);
+        } else if (viewType == ITEM_TYPE_CONTENT) {
+            return new MyViewHolder(LayoutInflater.from(context)
+                    .inflate(R.layout.item_commen, parent, false));
+        } else {
+            mFooterView = LayoutInflater.from(context)
+                    .inflate(R.layout.item_footer, parent, false);
+            mFooterView.setVisibility(View.GONE);
+            return new MyViewHolder(mFooterView);
+        }
+>>>>>>> master
     }
 
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position) {
-        RItembean itembean = mDatas.get(position);
+        if (getItemViewType(position) == ITEM_TYPE_HEADER
+                || getItemViewType(position) == ITEM_TYPE_FOOTER) {
+            return;
+        }
+
+        int realPosition = holder.getLayoutPosition() - mHeaderCount;
+
+        RItembean itembean = mDatas.get(realPosition);
         holder.mDraweeView.setImageURI(itembean.thumburl);
         holder.sdv_author_head.setImageURI(itembean.author.headphoto);
 
@@ -85,17 +134,40 @@ public class CommenAdapter extends RecyclerView.Adapter<MyViewHolder> {
 
             LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(-1, 0, 1);
             inflate.setLayoutParams(params);
-
             holder.mLlCommentContainer.addView(inflate);
         }
-
     }
-
 
     @Override
     public int getItemCount() {
-        return mDatas == null ? 0 : mDatas.size();
+        return mDatas == null ? mHeaderCount + 1 : mDatas.size() + mHeaderCount + 1;
     }
 
 
+<<<<<<< HEAD
+=======
+        TextView tv_image_desc;
+        TextView mTvDesc;
+        TextView tv_author_name;
+        LinearLayout mLlCommentContainer;
+        SimpleDraweeView mDraweeView;
+        SimpleDraweeView sdv_author_head;
+
+        public MyViewHolder(View view) {
+            super(view);
+
+            if (view == mHeaderView || view == mFooterView) {
+                return;
+            }
+
+            mTvDesc = (TextView) view.findViewById(R.id.tv_desc);
+            tv_image_desc = (TextView) view.findViewById(R.id.tv_image_desc);
+            tv_author_name = (TextView) view.findViewById(R.id.tv_author_name);
+            mDraweeView = (SimpleDraweeView) view.findViewById(R.id.my_image_view);
+            sdv_author_head = (SimpleDraweeView) view.findViewById(R.id.sdv_author_head);
+            mLlCommentContainer = (LinearLayout) view.findViewById(R.id.ll_comment_container);
+        }
+    }
+
+>>>>>>> master
 }
