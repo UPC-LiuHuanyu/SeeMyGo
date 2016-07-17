@@ -94,6 +94,79 @@ public class RItembean {
      */
 
     public List<CommentsBean> comments;
+    /**
+     * original : http://media.qicdn.detu.com/@/89536426-577D-B1A1-279B-51F49596505/2016-07-08/577f5209b70af-2048x1024.m3u8
+     * original_m : http://media.qicdn.detu.com/@/89536426-577D-B1A1-279B-51F49596505/2016-07-08/577f5209b70af-1024x512.m3u8
+     * original_l : http://media.qicdn.detu.com/@/89536426-577D-B1A1-279B-51F49596505/2016-07-08/577f5209b70af-2048x1024.m3u8
+     * original_s : http://media.qicdn.detu.com/@/89536426-577D-B1A1-279B-51F49596505/2016-07-08/577f5209b70af-512x256.m3u8
+     * original_offline : http://media.qicdn.detu.com/@/89536426-577D-B1A1-279B-51F49596505/2016-07-08/577f5209b70af-2048x1024.mp4
+     * max_quality : 3
+     * default_quality : 3
+     */
+
+    private String original;
+    private String original_m;
+    private String original_l;
+    private String original_s;
+    private String original_offline;
+    private String max_quality;
+    private String default_quality;
+
+    public String getOriginal() {
+        return original;
+    }
+
+    public void setOriginal(String original) {
+        this.original = original;
+    }
+
+    public String getOriginal_m() {
+        return original_m;
+    }
+
+    public void setOriginal_m(String original_m) {
+        this.original_m = original_m;
+    }
+
+    public String getOriginal_l() {
+        return original_l;
+    }
+
+    public void setOriginal_l(String original_l) {
+        this.original_l = original_l;
+    }
+
+    public String getOriginal_s() {
+        return original_s;
+    }
+
+    public void setOriginal_s(String original_s) {
+        this.original_s = original_s;
+    }
+
+    public String getOriginal_offline() {
+        return original_offline;
+    }
+
+    public void setOriginal_offline(String original_offline) {
+        this.original_offline = original_offline;
+    }
+
+    public String getMax_quality() {
+        return max_quality;
+    }
+
+    public void setMax_quality(String max_quality) {
+        this.max_quality = max_quality;
+    }
+
+    public String getDefault_quality() {
+        return default_quality;
+    }
+
+    public void setDefault_quality(String default_quality) {
+        this.default_quality = default_quality;
+    }
 
     public static class CoordinatesBean {
         public int longitude;

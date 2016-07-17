@@ -7,7 +7,10 @@ package com.example.lhy.cons;
  */
 public class NetCons {
 
-    public static final String BANNER_URL = "http://www.test.detu.com/api/mobile2/get_zzn_carousel";
+    //public static final String BANNER_URL = "http://www.test.detu.com/api/mobile2/get_zzn_carousel";
+    //找到一个比较新的banner url;
+    public static final String BANNER_URL = "http://www.detu.com/api/mobile2/get_qm_home_carousel";
+
 
     public static final String EXTRA_TAIL = "?identifier=com.detu.qumeng&appversion=26&mobiledevice=s&mobilesystem=android";
 
@@ -22,7 +25,7 @@ public class NetCons {
      * @param int pagesize 每页条数
      * @param string order 排序方式(hot根据热度倒序排序, recommend根据运营推荐顺序排序[默认排序], uploadtime根据上传时间正序排序)
      */
-    public static final String SPECIFIC_CHANNEL_URL = " http://www.test.detu.com/api/mobile2/get_collection_by_channel";
+    public static final String SPECIFIC_CHANNEL_URL = "http://www.detu.com/api/mobile2/get_collection_by_channel";
 
     //public static final String SPECIFIC_CHANNEL_PARAMS = "?channelid=19&pageindex=1&pagesize=20&order=recommend";
     public static final String SPECIFIC_CHANNEL_PARAMS = "?channelid=%d&pageindex=%d&pagesize=%d&order=%s";

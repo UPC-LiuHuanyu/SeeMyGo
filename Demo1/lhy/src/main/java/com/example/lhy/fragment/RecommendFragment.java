@@ -35,7 +35,6 @@ import java.util.List;
  */
 public class RecommendFragment extends Fragment {
 
-
     private static final String ORDER_RECOMMEND = "recommend";
     private static final int PAGE_SIZE = 20;
     private static final int CHANNEL_ID = 19;
