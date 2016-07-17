@@ -5,32 +5,16 @@
               android:background="@android:color/white"
               android:orientation="vertical">
 
-    <RelativeLayout
-        android:id="@+id/rl_banner"
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/refresh_layout"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:visibility="gone">
+        android:layout_height="match_parent">
 
-        <android.support.v4.view.ViewPager
-            android:id="@+id/vp_banner"
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/lv_content"
             android:layout_width="match_parent"
-            android:layout_height="150dp"/>
+            android:layout_height="match_parent"/>
 
-        <LinearLayout
-            android:layout_width="80dp"
-            android:layout_height="10dp"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="10dp"
-            android:background="@drawable/dots_container_bg"
-            android:orientation="horizontal"/>
-
-    </RelativeLayout>
-
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/lv_content"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"/>
+    </android.support.v4.widget.SwipeRefreshLayout>
 
 </LinearLayout>
