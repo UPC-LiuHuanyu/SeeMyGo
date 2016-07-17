@@ -6,8 +6,10 @@ import android.os.Message;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -34,6 +36,9 @@ import java.util.List;
 public class RecommendFragment extends Fragment {
 
 
+    private static final String ORDER_RECOMMEND = "recommend";
+    private static final int PAGE_SIZE = 20;
+    private static final int CHANNEL_ID = 19;
     private ViewPager vp_banner;
     private BannerAdapter mAdapter;
     private RelativeLayout rl_banner;
@@ -41,14 +46,17 @@ public class RecommendFragment extends Fragment {
 
     private Handler mHandler;
     private CommenAdapter mCommenAdapter;
+    private SwipeRefreshLayout mRefreshLayout;
+    private boolean isLoading;
+    private int mPageIndex = 1;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View inflate = inflater.inflate(R.layout.fragment_recommend, null);
-        vp_banner = (ViewPager) inflate.findViewById(R.id.vp_banner);
-        rl_banner = (RelativeLayout) inflate.findViewById(R.id.rl_banner);
         lv_content = (RecyclerView) inflate.findViewById(R.id.lv_content);
+        mRefreshLayout = (SwipeRefreshLayout) inflate.findViewById(R.id.refresh_layout);
+        mRefreshLayout.setColorSchemeColors(R.color.colorAccent);
         return inflate;
     }
 
@@ -65,13 +73,17 @@ public class RecommendFragment extends Fragment {
             }
         });
 
-        NetWorkUtil.doGet(NetCons.SPECIFIC_CHANNEL_URL + NetCons.SPECIFIC_CHANNEL_PARAMS, new IModelChangedListener<RResponse>(RResponse.class) {
+        loadRecommendData();
+
+    }
+
+    private void loadRecommendData() {
+        NetWorkUtil.doGet(NetCons.getUrl(CHANNEL_ID,mPageIndex,PAGE_SIZE,ORDER_RECOMMEND), new IModelChangedListener<RResponse>(RResponse.class) {
             @Override
             public void onChangeUI(RResponse rResponse) {
                 mHandler.obtainMessage(1, rResponse.getData()).sendToTarget();
             }
         });
-
     }
 
     private void initHandler() {
@@ -90,6 +102,9 @@ public class RecommendFragment extends Fragment {
                         List<RItembean> rItembeen = JSON.parseArray(json, RItembean.class);
                         mCommenAdapter.setDatas(rItembeen);
                         mCommenAdapter.notifyDataSetChanged();
+                        mRefreshLayout.setRefreshing(false);
+                        mPageIndex++;
+                        isLoading = false;
                         break;
                 }
             }
@@ -97,10 +112,49 @@ public class RecommendFragment extends Fragment {
     }
 
     private void initUI() {
+
+        mRefreshLayout.post(new Runnable() {
+            @Override
+            public void run() {
+                mRefreshLayout.setRefreshing(true);
+            }
+        });
+
+        mRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                loadRecommendData();
+            }
+        });
+
+        View view = LayoutInflater.from(getContext())
+                .inflate(R.layout.item_header, null);
+        vp_banner = (ViewPager) view.findViewById(R.id.vp_banner);
+        rl_banner = (RelativeLayout) view.findViewById(R.id.rl_banner);
         mAdapter = new BannerAdapter(getActivity());
         vp_banner.setAdapter(mAdapter);
-        lv_content.setLayoutManager(new LinearLayoutManager(getActivity()));
+
+        final LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
+        lv_content.setLayoutManager(layoutManager);
         mCommenAdapter = new CommenAdapter(getActivity());
         lv_content.setAdapter(mCommenAdapter);
+        mCommenAdapter.addHeaderView(view);
+
+        lv_content.addOnScrollListener(new RecyclerView.OnScrollListener() {
+            @Override
+            public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
+                super.onScrolled(recyclerView, dx, dy);
+
+                int lastVisibleItemPosition = layoutManager.findLastVisibleItemPosition();
+                if (lastVisibleItemPosition + 2 == mCommenAdapter.getItemCount()) {
+                    if (!isLoading) {
+                        isLoading = true;
+                        Log.d("RecommendFragment", "onScrolled: loadmore");
+                        loadRecommendData();
+                    }
+
+                }
+            }
+        });
     }
 }

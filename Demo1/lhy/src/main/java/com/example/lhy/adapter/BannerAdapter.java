@@ -5,11 +5,9 @@ import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 
-import com.example.lhy.R;
 import com.example.lhy.bean.BannerBean;
-import com.squareup.picasso.Picasso;
+import com.facebook.drawee.view.SimpleDraweeView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,7 +20,7 @@ import java.util.List;
 public class BannerAdapter extends PagerAdapter {
 
     List<BannerBean> mDatas;
-    List<ImageView> images;
+    List<SimpleDraweeView> images;
     private Context c;
 
     public BannerAdapter(Context c) {
@@ -33,11 +31,10 @@ public class BannerAdapter extends PagerAdapter {
         mDatas = datas;
         images = new ArrayList<>();
         for (BannerBean data : mDatas) {
-            ImageView iv = new ImageView(c);
-            iv.setLayoutParams(new ViewGroup.LayoutParams(ViewPager.LayoutParams.MATCH_PARENT, ViewPager.LayoutParams.MATCH_PARENT));
-            Picasso.with(c).load(data.getImg()).into(iv);
-//            iv.setImageResource(R.drawable.ic);
-            images.add(iv);
+            SimpleDraweeView sdv = new SimpleDraweeView(c);
+            sdv.setLayoutParams(new ViewGroup.LayoutParams(ViewPager.LayoutParams.MATCH_PARENT, ViewPager.LayoutParams.MATCH_PARENT));
+            sdv.setImageURI(data.getImg());
+            images.add(sdv);
         }
 
     }
@@ -54,7 +51,7 @@ public class BannerAdapter extends PagerAdapter {
 
     @Override
     public Object instantiateItem(ViewGroup container, int position) {
-        ImageView child = images.get(position);
+        SimpleDraweeView child = images.get(position);
         container.addView(child);
         return images.get(position);
     }

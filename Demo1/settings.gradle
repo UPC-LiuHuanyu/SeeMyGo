@@ -1,2 +1,1 @@
 include ':panoplay_android_jar', ':lhy'
-include ':demo'
