@@ -10,8 +10,10 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.example.lhy.Protocol.IRecycleViewClickListener;
 import com.example.lhy.R;
 import com.example.lhy.bean.RItembean;
+import com.example.lhy.holder.MyViewHolder;
 import com.facebook.drawee.view.SimpleDraweeView;
 
 import java.util.List;
@@ -21,11 +23,11 @@ import java.util.List;
  * QQ：310719413
  * Email：freshmboy@126.com
  */
-public class CommenAdapter extends RecyclerView.Adapter<CommenAdapter.MyViewHolder> {
+public class CommenAdapter extends RecyclerView.Adapter<MyViewHolder> {
 
     List<RItembean> mDatas;
+    IRecycleViewClickListener listener;
     private Context context;
-
 
 
     public CommenAdapter(Context context) {
@@ -36,10 +38,15 @@ public class CommenAdapter extends RecyclerView.Adapter<CommenAdapter.MyViewHold
         mDatas = datas;
     }
 
+    public void setItemOnClickListener(IRecycleViewClickListener listener) {
+        this.listener = listener;
+    }
+
     @Override
-    public CommenAdapter.MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View inflate = LayoutInflater.from(context).inflate(R.layout.item_commen, parent, false);
         MyViewHolder holder = new MyViewHolder(inflate);
+        holder.setListener(listener);
         return holder;
     }
 
@@ -61,7 +68,6 @@ public class CommenAdapter extends RecyclerView.Adapter<CommenAdapter.MyViewHold
         if (!TextUtils.isEmpty(imagedes)) {
             holder.mTvDesc.setText(imagedes);
         }
-
 
         List<RItembean.CommentsBean> comments = itembean.comments;
 
@@ -91,24 +97,5 @@ public class CommenAdapter extends RecyclerView.Adapter<CommenAdapter.MyViewHold
         return mDatas == null ? 0 : mDatas.size();
     }
 
-    class MyViewHolder extends RecyclerView.ViewHolder {
 
-        TextView tv_image_desc;
-        TextView mTvDesc;
-        TextView tv_author_name;
-        LinearLayout mLlCommentContainer;
-        SimpleDraweeView mDraweeView;
-        SimpleDraweeView sdv_author_head;
-
-
-        public MyViewHolder(View view) {
-            super(view);
-            mTvDesc = (TextView) view.findViewById(R.id.tv_desc);
-            tv_image_desc = (TextView) view.findViewById(R.id.tv_image_desc);
-            tv_author_name = (TextView) view.findViewById(R.id.tv_author_name);
-            mDraweeView = (SimpleDraweeView) view.findViewById(R.id.my_image_view);
-            sdv_author_head = (SimpleDraweeView) view.findViewById(R.id.sdv_author_head);
-            mLlCommentContainer = (LinearLayout) view.findViewById(R.id.ll_comment_container);
-        }
-    }
 }

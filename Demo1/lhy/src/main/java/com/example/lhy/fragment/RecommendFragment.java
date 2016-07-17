@@ -1,5 +1,6 @@
 package com.example.lhy.fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -17,12 +18,15 @@ import android.widget.RelativeLayout;
 
 import com.alibaba.fastjson.JSON;
 import com.example.lhy.Protocol.IModelChangedListener;
+import com.example.lhy.Protocol.IRecycleViewClickListener;
 import com.example.lhy.R;
+import com.example.lhy.activity.VRActivity;
 import com.example.lhy.adapter.BannerAdapter;
 import com.example.lhy.adapter.CommenAdapter;
 import com.example.lhy.bean.BannerBean;
 import com.example.lhy.bean.RItembean;
 import com.example.lhy.bean.RResponse;
+import com.example.lhy.cons.IntentValues;
 import com.example.lhy.cons.NetCons;
 import com.example.lhy.util.NetWorkUtil;
 import com.example.lhy.util.UIUtil;
@@ -39,15 +43,17 @@ import java.util.TimerTask;
 public class RecommendFragment extends Fragment {
 
 
+    private final int ITEM_LOADED = 1;
+    private final int BANNER_LOADED = 0;
     private ViewPager vp_banner;
     private BannerAdapter mBannerAdapter;
     private RelativeLayout rl_banner;
     private RecyclerView lv_content;
-
     private Handler mHandler;
     private CommenAdapter mCommenAdapter;
     private LinearLayout ll_dots_container;
     private Timer mTimer;
+    private List<RItembean> mRItembeen;
 
     @Nullable
     @Override
@@ -59,6 +65,7 @@ public class RecommendFragment extends Fragment {
 
     private void initUI(View inflate) {
         vp_banner = (ViewPager) inflate.findViewById(R.id.vp_banner);
+        vp_banner.setOffscreenPageLimit(0);
         rl_banner = (RelativeLayout) inflate.findViewById(R.id.rl_banner);
         lv_content = (RecyclerView) inflate.findViewById(R.id.lv_content);
         ll_dots_container = (LinearLayout) inflate.findViewById(R.id.ll_dots_container);
@@ -73,14 +80,14 @@ public class RecommendFragment extends Fragment {
         NetWorkUtil.doGet(NetCons.BANNER_URL, new IModelChangedListener<RResponse>(RResponse.class) {
             @Override
             public void onChangeUI(RResponse rResponse) {
-                mHandler.obtainMessage(0, rResponse.getData()).sendToTarget();
+                mHandler.obtainMessage(BANNER_LOADED, rResponse.getData()).sendToTarget();
             }
         });
 
         NetWorkUtil.doGet(NetCons.SPECIFIC_CHANNEL_URL + NetCons.SPECIFIC_CHANNEL_PARAMS, new IModelChangedListener<RResponse>(RResponse.class) {
             @Override
             public void onChangeUI(RResponse rResponse) {
-                mHandler.obtainMessage(1, rResponse.getData()).sendToTarget();
+                mHandler.obtainMessage(ITEM_LOADED, rResponse.getData()).sendToTarget();
             }
         });
 
@@ -93,7 +100,7 @@ public class RecommendFragment extends Fragment {
             public void handleMessage(Message msg) {
                 String json = (String) msg.obj;
                 switch (msg.what) {
-                    case 0:
+                    case BANNER_LOADED:
                         final List<BannerBean> datas = JSON.parseArray(json, BannerBean.class);
                         mBannerAdapter.setDatas(datas);
                         mBannerAdapter.notifyDataSetChanged();
@@ -150,9 +157,9 @@ public class RecommendFragment extends Fragment {
                         }, 2000, 2000);
 
                         break;
-                    case 1:
-                        List<RItembean> rItembeen = JSON.parseArray(json, RItembean.class);
-                        mCommenAdapter.setDatas(rItembeen);
+                    case ITEM_LOADED:
+                        mRItembeen = JSON.parseArray(json, RItembean.class);
+                        mCommenAdapter.setDatas(mRItembeen);
                         mCommenAdapter.notifyDataSetChanged();
 
                         break;
@@ -170,12 +177,27 @@ public class RecommendFragment extends Fragment {
         lv_content.setLayoutManager(new LinearLayoutManager(getActivity()));
         mCommenAdapter = new CommenAdapter(getActivity());
         lv_content.setAdapter(mCommenAdapter);
+        mCommenAdapter.setItemOnClickListener(new IRecycleViewClickListener() {
+            @Override
+            public void onItemClick(View view, int position) {
+                RItembean bean = mRItembeen.get(position);
+                String preview = bean.html5_3dpreview;
+                String thumburl = bean.html5_path;
+                Intent intent = new Intent(getActivity(), VRActivity.class);
+                intent.putExtra(IntentValues.VR_PREVIEW, preview);
+                intent.putExtra(IntentValues.VR_IMAGE_URL, thumburl);
+                intent.putExtra(IntentValues.VR_TYPE, VRActivity.VR_IMAGE);
+                startActivity(intent);
+            }
+        });
     }
 
-    @Override
-    public void onStop() {
-        super.onStop();
-        mTimer.cancel();
 
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        if (mTimer != null) {
+            mTimer.cancel();
+        }
     }
 }

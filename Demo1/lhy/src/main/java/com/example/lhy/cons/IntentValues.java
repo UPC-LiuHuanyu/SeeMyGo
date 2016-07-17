@@ -7,7 +7,8 @@ package com.example.lhy.cons;
  */
 public class IntentValues {
 
-    public static final String VR_PREVIEW="vr_preview";
-    public static final String VR_IMAGE_URL="vr_image_url";
+    public static final String VR_PREVIEW = "vr_preview";
+    public static final String VR_IMAGE_URL = "vr_image_url";
 
+    public static final String VR_TYPE = "vr_type";
 }
