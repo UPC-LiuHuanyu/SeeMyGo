@@ -14,28 +14,6 @@
             android:id="@+id/lv_content"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
-
-<<<<<<< HEAD
-        <LinearLayout
-            android:id="@+id/ll_dots_container"
-            android:layout_width="match_parent"
-            android:layout_height="16dp"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="20dp"
-            android:background="@drawable/dots_container_bg"
-            android:gravity="center"
-            android:orientation="horizontal"/>
-
-    </RelativeLayout>
-
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/lv_content"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"/>
-=======
     </android.support.v4.widget.SwipeRefreshLayout>
->>>>>>> master
 
 </LinearLayout>

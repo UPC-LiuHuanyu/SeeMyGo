@@ -29,10 +29,10 @@ public class VRActivity extends Activity {
             "\t<settings init=\"pano1\" initmode=\"default\" enablevr=\"false\" title=\"\" /> \n" +
             "\t<scenes> \n" +
             "\t\t<!-- video --> \n" +
-            "\t\t<scene name=\"pano-131919\" title=\"正安VR宣传片 一分钟精华版\" thumburl=\"http://media.qicdn.detu.com/@/13146270-9253-8D25-4C04-08D4F83618142/2016-07-11/57834634116cb-1000x500.jpg\"> \n" +
+            "\t\t<scene name=\"pano-130008\" title=\"【法晚VR新闻】第一视角带你看特战魔鬼周\" thumburl=\"http://media.qicdn.detu.com/@/17301281-9356-8DF4-8425-A934F01236889/2016-07-04/577a00440f356-1000x500.jpg\"> \n" +
             "\t\t\t<view hlookat=\"0\" vlookat=\"0\" fov=\"65\" vrfov=\"90\" vrz=\"0.5\" righteye=\"0\" fovmax=\"95\" defovmax=\"95\" viewmode=\"default\" /> \n" +
-            "\t\t\t<preview type=\"sphere\" url=\"http://media.qicdn.detu.com/@/13146270-9253-8D25-4C04-08D4F83618142/2016-07-11/57834634116cb.jpg\" /> \n" +
-            "\t\t\t<image type=\"video\" url=\"http://media.qicdn.detu.com/@/13146270-9253-8D25-4C04-08D4F83618142/2016-07-11/57834634116cb.m3u8\" device=\"0\" /> \n" +
+            "\t\t\t<preview type=\"sphere\" url=\"http://media.qicdn.detu.com/@/17301281-9356-8DF4-8425-A934F01236889/2016-07-04/577a00440f356.jpg\" /> \n" +
+            "\t\t\t<image type=\"video\" url=\"http://media.qicdn.detu.com/@/17301281-9356-8DF4-8425-A934F01236889/2016-07-04/577a00440f356.m3u8\" device=\"0\" /> \n" +
             "\t\t</scene> \n" +
             "\t</scenes> \n" +
             "</DetuVr>";

@@ -31,17 +31,10 @@ public class BannerAdapter extends PagerAdapter {
         mDatas = datas;
         images = new ArrayList<>();
         for (BannerBean data : mDatas) {
-<<<<<<< HEAD
-            ImageView iv = new ImageView(c);
-            iv.setLayoutParams(new ViewGroup.LayoutParams(ViewPager.LayoutParams.MATCH_PARENT, ViewPager.LayoutParams.MATCH_PARENT));
-            Picasso.with(c).load(data.getImg()).into(iv);
-            images.add(iv);
-=======
             SimpleDraweeView sdv = new SimpleDraweeView(c);
             sdv.setLayoutParams(new ViewGroup.LayoutParams(ViewPager.LayoutParams.MATCH_PARENT, ViewPager.LayoutParams.MATCH_PARENT));
             sdv.setImageURI(data.getImg());
             images.add(sdv);
->>>>>>> master
         }
 
     }
@@ -58,11 +51,11 @@ public class BannerAdapter extends PagerAdapter {
 
     @Override
     public Object instantiateItem(ViewGroup container, int position) {
-<<<<<<< HEAD
-        ImageView child = images.get(position % mDatas.size());
-=======
-        SimpleDraweeView child = images.get(position);
->>>>>>> master
+        SimpleDraweeView child = images.get(position % mDatas.size());
+        ViewGroup parent = (ViewGroup) child.getParent();
+        if (parent != null) {
+            parent.removeView(child);
+        }
         container.addView(child);
         return child;
     }
