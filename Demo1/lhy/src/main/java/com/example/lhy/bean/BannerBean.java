@@ -10,6 +10,7 @@ public class BannerBean {
     private String type;
     private String url;
     private String title;
+    private int id;
 
     public String getImg() {
         return img;
@@ -41,5 +42,13 @@ public class BannerBean {
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }
