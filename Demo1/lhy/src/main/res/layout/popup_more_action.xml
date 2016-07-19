@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/foreground_mask"
+        android:onClick="popItemClick"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#4000"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/scanner_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:drawableTop="@drawable/scaner"
+            android:gravity="center"
+            android:onClick="popItemClick"
+            android:text="@string/scan"
+            android:textColor="@color/grey900"/>
+
+        <TextView
+            android:id="@+id/open_local_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/scanner_tv"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/scanner_tv"
+            android:clickable="true"
+            android:drawableTop="@drawable/open_local"
+            android:gravity="center"
+            android:onClick="popItemClick"
+            android:text="@string/local_data"
+            android:textColor="@color/grey900"/>
+
+        <ImageButton
+            android:id="@+id/cancel_ib"
+            android:layout_width="63dp"
+            android:layout_height="19dp"
+            android:layout_below="@+id/scanner_tv"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/cancel"
+            android:onClick="popItemClick"/>
+    </RelativeLayout>
+</LinearLayout>

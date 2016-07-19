@@ -4,6 +4,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+
     <string name="credit_not_online">积分系统即将上线  尽请期待！</string>
     <string name="message">消息</string>
     <string name="follow">关注</string>
@@ -12,4 +13,10 @@
     <string name="offline_work">离线缓存</string>
     <string name="setting">设置</string>
     <string name="loading">数据加载中...</string>
+    <string name="local_data">本地数据</string>
+    <string name="scan">扫一扫</string>
+    <string name="scan_desc_1">如果您正在电脑上浏览</string>
+    <string name="detu_website">www.detu.com</string>
+    <string name="scan_desc_2">可在内容窗口中，找到二维码\n扫描后\n可“穿越”到手机上观看</string>
+    <string name="scan_desc_3">请将二维码放入框内，即可完成扫描</string>
 </resources>

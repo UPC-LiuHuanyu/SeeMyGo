@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/capture_containter"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+    <SurfaceView
+        android:id="@+id/scanner_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+
+    <LinearLayout
+        android:id="@+id/capture_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/common_header"/>
+
+        <LinearLayout
+            android:id="@+id/scanner_top_mask"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_b2000000"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20.0dip"
+                android:text="@string/scan_desc_1"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/detu_website"
+                android:textColor="@color/color_009fe8"
+                android:textSize="@dimen/text_size_16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="32.0dip"
+                android:gravity="center_horizontal"
+                android:lineSpacingMultiplier="1.1"
+                android:text="@string/scan_desc_2"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_16sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/scanner_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/scanner_top_mask"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@color/color_b2000000"/>
+
+            <RelativeLayout
+                android:id="@+id/capture_crop_view"
+                android:layout_width="216.0dip"
+                android:layout_height="216.0dip"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/qrscan_box"
+                android:padding="8.0dip">
+
+                <ImageView
+                    android:id="@+id/capture_scan_line"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:background="@mipmap/qrscan_line"/>
+            </RelativeLayout>
+
+            <FrameLayout
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@color/color_b2000000"/>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0"
+            android:background="@color/color_b2000000">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="32.0dip"
+                android:text="@string/scan_desc_3"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_12sp"/>
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

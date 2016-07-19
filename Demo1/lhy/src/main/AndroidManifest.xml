@@ -12,6 +12,16 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
+    <!--震动权限-->
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <!--相机权限-->
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <!--自动对焦权限-->
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <!--闪光灯权限-->
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+
     <application
         android:name=".application.MainApplication"
         android:allowBackup="true"
@@ -28,7 +38,9 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
         <activity android:name=".activity.VRActivity"/>
+        <activity android:name="zxing.activity.CaptureActivity"/>
     </application>
 
 </manifest>
