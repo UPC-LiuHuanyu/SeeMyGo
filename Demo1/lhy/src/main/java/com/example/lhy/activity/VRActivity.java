@@ -4,11 +4,20 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.view.MotionEvent;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.ListView;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 import com.example.lhy.R;
 import com.example.lhy.cons.IntentValues;
+import com.example.lhy.ui.EdgeCircleImageView;
 import com.nostra13.universalimageloader.cache.disc.naming.Md5FileNameGenerator;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
@@ -20,6 +29,11 @@ import com.player.panoplayer.PanoPlayerUrl;
 import com.player.renderer.PanoPlayerSurfaceView;
 
 import org.opencv.android.OpenCVLoader;
+
+import java.util.ArrayList;
+
+import butterknife.ButterKnife;
+import butterknife.InjectView;
 
 public class VRActivity extends Activity {
     public static final int VR_IMAGE = 0;
@@ -53,17 +67,43 @@ public class VRActivity extends Activity {
         }
     }
 
-    PanoPlayerSurfaceView ppsview;
-    private PanoPlayer mPlayer;
+    @InjectView(R.id.glview)
+    PanoPlayerSurfaceView mGlview;
+    @InjectView(R.id.iv_icon)
+    EdgeCircleImageView mIvIcon;
+    @InjectView(R.id.tv_author)
+    TextView mTvAuthor;
+    @InjectView(R.id.tv_desc)
+    TextView mTvDesc;
+    @InjectView(R.id.lv_comments)
+    ListView mLvComments;
+    @InjectView(R.id.ll_text_container)
+    LinearLayout mLlTextContainer;
+    @InjectView(R.id.ll_author_info_container)
+    LinearLayout mLlAuthorInfoContainer;
+    @InjectView(R.id.tv_panel_anchor)
+    TextView mTvPanelAnchor;
+    @InjectView(R.id.Gyro)
+    Button mGyro;
 
+    private PanoPlayer mPlayer;
+    private ArrayList<String> mData;
+    private ArrayAdapter<String> mAdapter;
+    private int mScreenHeight;
+    private int mMaxHeight;
+    private float mLastY;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_vr_show);
         //SDK的默认配置，不要改
         defaultOptions();
+        //初始化listview，用string填充
+        initData();
         //初始化UI，就是那些panoplayer啥的
         initUI();
+
         //根据传过来的intent里面的type，判断是进入图片显示还是视频显示
         Intent intent = getIntent();
         int type = intent.getIntExtra(IntentValues.VR_TYPE, -1);
@@ -75,13 +115,13 @@ public class VRActivity extends Activity {
                 playVRVideo(intent);
                 break;
         }
-        //设置全屏
-        fullScreen();
         //设置点击事件，开启重力感应
         findViewById(R.id.Gyro).setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
+                //设置全屏
+                fullScreen();
                 if (mPlayer != null) {
                     mPlayer.setGyroEnable(true);
                 }
@@ -99,17 +139,54 @@ public class VRActivity extends Activity {
     }
 
     private void initUI() {
-        ppsview = (PanoPlayerSurfaceView) findViewById(R.id.glview);
-        mPlayer = new PanoPlayer(ppsview, this);
-        ppsview.setRenderer(mPlayer);
-        findViewById(R.id.videolay).setVisibility(View.GONE);
+        ButterKnife.inject(this);
+        mGlview = (PanoPlayerSurfaceView) findViewById(R.id.glview);
+        mPlayer = new PanoPlayer(mGlview, this);
+        mGlview.setRenderer(mPlayer);
+
+        mAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, mData);
+        mLvComments.setAdapter(mAdapter);
+
+        mScreenHeight = this.getWindowManager().getDefaultDisplay().getHeight();
+        mLlTextContainer.measure(0, 0);
+        mMaxHeight = mScreenHeight - mLlTextContainer.getMeasuredHeight();
+
+        mLlTextContainer.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                switch (event.getAction()) {
+                    case MotionEvent.ACTION_DOWN:
+                        mLastY = event.getRawY();
+                        break;
+                    case MotionEvent.ACTION_MOVE:
+                        float nowY = event.getRawY();
+                        ViewGroup.LayoutParams params = mGlview.getLayoutParams();
+                        params.height += nowY - mLastY;
+                        if (params.height > mMaxHeight) {
+                            params.height = mMaxHeight;
+                        }
+                        if (params.height < 200) {
+                            params.height = 200;
+                        }
+                        mLastY = nowY;
+                        mGlview.setLayoutParams(params);
+                        mGlview.invalidate();
+
+                        break;
+                    case MotionEvent.ACTION_UP:
+
+                        break;
+                }
+                return true;
+            }
+        });
     }
 
     private void fullScreen() {
-        RelativeLayout.LayoutParams lp = (RelativeLayout.LayoutParams) ppsview
+        RelativeLayout.LayoutParams lp = (RelativeLayout.LayoutParams) mGlview
                 .getLayoutParams();
         lp.height = RelativeLayout.LayoutParams.MATCH_PARENT;
-        ppsview.setLayoutParams(lp);
+        mGlview.setLayoutParams(lp);
 
     }
 
@@ -145,7 +222,6 @@ public class VRActivity extends Activity {
     }
 
     private void defaultOptions() {
-        setContentView(R.layout.activity_vr_show);
         DisplayImageOptions defaultOptions = new DisplayImageOptions.Builder()
                 .imageScaleType(ImageScaleType.NONE).cacheInMemory()
                 .cacheOnDisc().build();
@@ -159,5 +235,12 @@ public class VRActivity extends Activity {
                 .tasksProcessingOrder(QueueProcessingType.FIFO).build();
         ImageLoader.getInstance().init(config);
 
+    }
+
+    private void initData() {
+        mData = new ArrayList<>();
+        for (int i = 0; i < 50; i++) {
+            mData.add("数据+" + i);
+        }
     }
 }

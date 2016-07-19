@@ -1,49 +1,106 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".activity.VRActivity" >
+                xmlns:fresco="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".activity.VRActivity">
 
     <com.player.renderer.PanoPlayerSurfaceView
         android:id="@+id/glview"
         android:layout_width="fill_parent"
-        android:layout_height="200dp"
-        android:background="#00000000" />
+        android:layout_height="100dp"
+        android:background="#00000000"/>
+
 
     <LinearLayout
-        android:id="@+id/videolay"
+        android:id="@+id/ll_text_container"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="match_parent"
         android:layout_alignParentBottom="true"
-        android:gravity="center"
-        android:orientation="horizontal" >
+        android:layout_below="@id/glview"
+        android:orientation="vertical"
+        >
 
-        <Button
-            android:id="@+id/btn_play"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:minHeight="40dp"
-            android:text="播放" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:paddingBottom="2dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="20dp">
+
+            <com.example.lhy.ui.EdgeCircleImageView
+                android:id="@+id/iv_icon"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:scaleType="fitXY"
+                fresco:placeholderImage="@drawable/ic"/>
+
+            <TextView
+                android:id="@+id/tv_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/iv_icon"
+                android:text="夜晚的城市"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_icon"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="4dp"
+                android:maxLines="5"
+                android:text="南宁，简称邕，古称邕州，中国广西壮族自治区首府，广西第一大城市，广西政治、经济、文化、交通、科技和金融中心。在黑夜里，拥有独一无二的美丽夜景；白日里，又是绿阴如盖、繁花似锦的宜居之地。"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="5dp"
+                android:text="精彩评论"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="8dp"/>
+
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/lv_comments"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_author_info_container"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_above="@id/ll_text_container"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.example.lhy.ui.EdgeCircleImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="20dp"
+            android:background="@android:color/black"
+            fresco:placeholderImage="@drawable/ic"
+            fresco:roundAsCircle="true"/>
 
         <TextView
-            android:id="@+id/lable1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="5dp"
-            android:text="00:00:00" />
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="华东美术"
+            android:textSize="12sp"
+            />
 
-        <SeekBar
-            android:id="@+id/sb_progress"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.8" />
-
-        <TextView
-            android:id="@+id/lable2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="5dp"
-            android:text="00:00:00" />
     </LinearLayout>
 
     <!-- 菜单项锚点View,勿删 -->
@@ -52,31 +109,8 @@
         android:id="@+id/tv_panel_anchor"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_alignParentBottom="true" />
+        android:layout_alignParentBottom="true"/>
 
-    <Button
-        android:id="@+id/dre_video"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:text="视频" />
-
-    <Button
-        android:id="@+id/dre_live"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/dre_video"
-        android:text="直播" />
-
-    <Button
-        android:id="@+id/btn_full"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/dre_live"
-        android:text="全屏" />
 
     <Button
         android:id="@+id/Gyro"
@@ -84,7 +118,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:text="Gyro" />
+        android:text="Gyro"/>
 
 
 </RelativeLayout>

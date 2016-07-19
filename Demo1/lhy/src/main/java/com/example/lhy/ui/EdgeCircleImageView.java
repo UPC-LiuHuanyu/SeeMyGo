@@ -23,11 +23,6 @@ public class EdgeCircleImageView extends SimpleDraweeView {
 
     public EdgeCircleImageView(Context context, GenericDraweeHierarchy hierarchy) {
         super(context, hierarchy);
-
-    }
-
-    public EdgeCircleImageView(Context context) {
-        super(context);
     }
 
     public EdgeCircleImageView(Context context, AttributeSet attrs) {
@@ -37,18 +32,8 @@ public class EdgeCircleImageView extends SimpleDraweeView {
         mCorner = typedArray.getDimension(com.facebook.drawee.backends.pipeline.R.styleable.GenericDraweeHierarchy_roundedCornerRadius, 0);
     }
 
-    public EdgeCircleImageView(Context context, AttributeSet attrs, int defStyle) {
-        super(context, attrs, defStyle);
-    }
-
-    public EdgeCircleImageView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
-        super(context, attrs, defStyleAttr, defStyleRes);
-
-    }
-
     @Override
     protected void onDraw(Canvas canvas) {
-
         super.onDraw(canvas);
         int width = getMeasuredWidth();
         int height = getMeasuredHeight();
@@ -66,6 +51,5 @@ public class EdgeCircleImageView extends SimpleDraweeView {
             paint.setStrokeWidth(8);
             canvas.drawRoundRect(rectF, mCorner, mCorner, paint);
         }
-
     }
 }
