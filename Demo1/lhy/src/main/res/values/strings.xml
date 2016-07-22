@@ -19,4 +19,11 @@
     <string name="detu_website">www.detu.com</string>
     <string name="scan_desc_2">可在内容窗口中，找到二维码\n扫描后\n可“穿越”到手机上观看</string>
     <string name="scan_desc_3">请将二维码放入框内，即可完成扫描</string>
+
+
+    <string name="forget_password">忘记密码</string>
+    <string name="login">登   录</string>
+    <string name="third_account_login">第三方账号登录</string>
+    <string name="switch_to_register">切换至“注册”界面</string>
+    <string name="qumeng_group">趣梦团队</string>
 </resources>

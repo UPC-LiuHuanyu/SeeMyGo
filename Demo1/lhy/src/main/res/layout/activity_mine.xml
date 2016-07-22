@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/user_background_container"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        >
+
+        <!--我的界面  顶部图片-->
+
+        <ImageView
+            android:id="@+id/imageView_mine_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/mine_bg"/>
+
+        <!--  左侧回退按钮  右侧编辑信息按钮-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:layout_marginTop="0dp">
+
+            <ImageView
+                android:id="@+id/button_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@null"
+                android:padding="8dp"
+                android:src="@mipmap/back_btn"/>
+
+            <ImageView
+                android:id="@+id/iv_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="12dp"
+                android:contentDescription="@null"
+                android:scaleType="center"
+                android:src="@drawable/mine_edit_btn"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <!--用户头像-->
+
+    <ImageView
+        android:id="@+id/imageView_avatar"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_below="@id/user_background_container"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="-34dp"
+        android:background="@drawable/avatar_bg_border"
+        android:contentDescription="@null"
+        android:padding="1dp"/>
+
+<!--    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/imageView_avatar"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_below="@id/user_background_container"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="-34dp"
+        fresco:roundAsCircle="true"/>-->
+
+    <!--用户名  -->
+
+    <LinearLayout
+        android:id="@+id/textView_username_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/imageView_avatar"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@id/imageView_avatar"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_username"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:ellipsize="end"
+            android:lines="1"
+            android:text="New Text"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"/>
+
+        <!--用户积分  该功能未上线  默认显示为隐藏-->
+
+        <TextView
+            android:id="@+id/textView_credit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/credit_not_online"
+            android:textColor="#ff666666"
+            android:textSize="12sp"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <!--个性签名-->
+
+    <TextView
+        android:id="@+id/textView_person_desc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/mine_action_panel"
+        android:layout_alignLeft="@id/textView_username_ll"
+        android:layout_below="@id/user_background_container"
+        android:ellipsize="end"
+        android:text="New Text"
+        android:textColor="#ff333333"
+        android:textSize="16sp"/>
+
+    <!--用户头像和用户名下面的部分-->
+
+    <LinearLayout
+        android:id="@+id/mine_action_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/placeHold_bottom"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+           <!-- &lt;!&ndash;？？？&ndash;&gt;
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                android:visibility="invisible">
+
+                <com.serena.www.myapplication.ui.view.MineActionButton_
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!--消息-->
+
+               <!-- <com.serena.www.myapplication.ui.view.MineActionButton_
+                    android:id="@+id/button_message"
+                    style="@style/mine_action_button_first_row"
+                    app:src="@mipmap/mine_message_icon"
+                    app:text="@string/message"/>-->
+
+                <LinearLayout
+                    style="@style/mine_action_button_first_row"
+                    android:id="@+id/ll_message"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/iv_message"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/mine_message_icon"/>
+                    <TextView
+                        android:id="@+id/tv_message"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/message"/>
+                </LinearLayout>
+
+                <!--竖的分割线-->
+
+                <ImageView
+                    style="@style/mine_action_panel_split_line_vertical"
+                    android:contentDescription="@null"/>
+
+                <!--关注-->
+
+               <!-- <com.serena.www.myapplication.ui.view.MineActionButton_
+                    android:id="@+id/button_follow"
+                    style="@style/mine_action_button_first_row"
+                    app:src="@mipmap/mine_attention_icon"
+                    app:text="@string/follow"/>-->
+
+                <LinearLayout
+                    style="@style/mine_action_button_first_row"
+                    android:id="@+id/ll_follow"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/iv_follow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/mine_attention_icon"/>
+                    <TextView
+                        android:id="@+id/tv_follow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/follow"/>
+                </LinearLayout>
+
+                <!--竖的分割线-->
+
+                <ImageView
+                    style="@style/mine_action_panel_split_line_vertical"
+                    android:contentDescription="@null"/>
+
+                <!--喜欢&收藏-->
+
+               <!-- <com.serena.www.myapplication.ui.view.MineActionButton_
+                    android:id="@+id/button_like"
+                    style="@style/mine_action_button_first_row"
+                    app:src="@mipmap/mine_favorites_icon"
+                    app:text="@string/like"/>-->
+
+
+                <LinearLayout
+                    style="@style/mine_action_button_first_row"
+                    android:id="@+id/ll_like"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/iv_like"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/mine_favorites_icon"/>
+                    <TextView
+                        android:id="@+id/tv_like"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/like"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <!--横的分割线-->
+
+            <ImageView
+                style="@style/mine_action_panel_split_line_horizontal"
+                android:contentDescription="@null"/>
+
+            <!--横竖分割线之间的那个点-->
+
+            <ImageView
+                style="@style/mine_action_panel_split_dot"
+                android:contentDescription="@null"/>
+
+            <!--横的分割线-->
+
+            <ImageView
+                style="@style/mine_action_panel_split_line_horizontal"
+                android:contentDescription="@null"/>
+
+            <!--横竖分割线之间的那个点-->
+
+            <ImageView
+                style="@style/mine_action_panel_split_dot"
+                android:contentDescription="@null"/>
+
+            <!--横的分割线-->
+
+            <ImageView
+                style="@style/mine_action_panel_split_line_horizontal"
+                android:contentDescription="@null"/>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal">
+
+                <!--我的作品-->
+
+              <!--  <com.serena.www.myapplication.ui.view.MineActionButton_
+                    android:id="@+id/button_my_work"
+                    style="@style/mine_action_button_second_row"
+                    app:src="@mipmap/mine_mypublicworks_icon"
+                    app:text="@string/my_work"/>-->
+
+                <LinearLayout
+                    style="@style/mine_action_button_second_row"
+                    android:id="@+id/ll_my_work"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/iv_my_work"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/mine_mypublicworks_icon"/>
+                    <TextView
+                        android:id="@+id/tv_my_work"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/my_work"/>
+                </LinearLayout>
+
+                <!--竖的分割线-->
+
+                <ImageView style="@style/mine_action_panel_split_line_vertical"
+                           android:contentDescription="@null"/>
+
+                <!--离线缓存-->
+
+               <!-- <com.serena.www.myapplication.ui.view.MineActionButton_
+                    android:id="@+id/button_offline_work"
+                    style="@style/mine_action_button_second_row"
+                    app:src="@mipmap/mine_offlinecache_icon"
+                    app:text="@string/offline_work"/>-->
+
+                <LinearLayout
+                    style="@style/mine_action_button_second_row"
+                    android:id="@+id/ll_offline_work"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/iv_offline_work"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/mine_offlinecache_icon"/>
+                    <TextView
+                        android:id="@+id/tv_offline_work"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/offline_work"/>
+                </LinearLayout>
+
+                <!--竖的分割线-->
+
+                <ImageView style="@style/mine_action_panel_split_line_vertical"
+                           android:contentDescription="@null"/>
+
+                <!--设置-->
+
+                <!--<com.serena.www.myapplication.ui.view.MineActionButton_
+                    android:id="@+id/button_setting"
+                    style="@style/mine_action_button_second_row"
+                    app:src="@mipmap/mine_setting_icon"
+                    app:text="@string/setting"/>-->
+
+                <LinearLayout
+                    style="@style/mine_action_button_second_row"
+                    android:id="@+id/ll_setting"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/iv_setting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/mine_setting_icon"/>
+                    <TextView
+                        android:id="@+id/tv_setting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/setting"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <!--底部-->
+
+    <FrameLayout
+        android:id="@+id/placeHold_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

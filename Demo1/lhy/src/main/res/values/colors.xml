@@ -293,4 +293,7 @@
     <color name="corner_color">#00FF00</color>
     <!-- QRCode scanner color end -->
 
+    <color name="colorBase">#ff009fe8</color>
+    <color name="colorHint">#aaaaaa</color>
+
 </resources>

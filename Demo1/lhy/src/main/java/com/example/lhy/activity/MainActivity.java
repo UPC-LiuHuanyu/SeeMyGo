@@ -25,6 +25,8 @@ import android.widget.TextView;
 
 import com.example.lhy.R;
 import com.example.lhy.adapter.TabAdapter;
+import com.example.lhy.application.MainApplication;
+import com.example.lhy.util.ActivityUtil;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;
@@ -107,6 +109,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // TODO: 2016/7/18 toolbar和popupwindow中的点击事件
         switch (view.getId()) {
             case R.id.main_mine_btn:
+                MainApplication application = (MainApplication) getApplication();
+                if (application.mUserInfo != null) {
+                    ActivityUtil.startActivity(this, MineActivity.class, false, 0);
+                }
+                ActivityUtil.startActivity(this, LoginActivity.class, false, 0);
                 break;
             case R.id.more_action_btn:
                 initPopupWindow();
