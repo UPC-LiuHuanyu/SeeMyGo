@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.Context;
 import android.os.Handler;
 
+import com.example.lhy.bean.RLoginResult;
 import com.facebook.drawee.backends.pipeline.Fresco;
 
 /**
@@ -15,6 +16,8 @@ public class MainApplication extends Application {
 
     public static Context mContext;
     public static Handler mhandler;
+    public RLoginResult mUserInfo;
+
 
     @Override
     public void onCreate() {
